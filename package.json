@@ -1,10 +1,11 @@
 {
-  "name": "ts.datetimeinput",
+  "name": "@teamsoft/date-time-input",
   "version": "0.0.1",
   "description": "",
   "main": "ts.datetimeinput.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make:patch": "unleash --patch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlexKryvets/ts.datetimeinput/issues"
   },
-  "homepage": "https://github.com/AlexKryvets/ts.datetimeinput#readme"
+  "homepage": "https://github.com/AlexKryvets/ts.datetimeinput#readme",
+  "devDependencies": {
+    "unleash": "^2.0.1"
+  }
 }
